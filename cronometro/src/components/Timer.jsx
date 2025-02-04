@@ -63,7 +63,7 @@ useEffect(() => {
          onReset={resetTimer}
          onLap={addLap}
           />      
-         <LapList />      
+         <LapList  laps={laps}/>      
     </div>
   )
 }

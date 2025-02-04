@@ -1,0 +1,32 @@
+.timer-laps {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.laps-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.laps-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lap-item {
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.lap-item:last-child {
+    border-bottom: none;
+}
+
+.lap-time {
+    font-weight: bold;
+    color: #007bff; /* Cor azul para o tempo da volta */
+} 
